@@ -1,3 +1,11 @@
+#include <msp430.h> 
+/* 
+*File: main.c For Multiple blink on MSP430G2553
+*Created On: 9/17/2018
+*Last Edited:
+*Author: Colin Craig
+*/
+
 int main(void)
 {
 	WDTCTL = WDTPW | WDTHOLD;	// stop watchdog timer
