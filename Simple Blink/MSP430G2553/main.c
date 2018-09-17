@@ -1,4 +1,5 @@
 #include <msp430.h>
+#define BITO 0x01 
 /* 
 *File: main.c For Simple blink on MSP430G2553
 *Created On: 9/16/2018
@@ -7,4 +8,8 @@
 */
 
 int main(void) 
+{ 
+  WDTCTL = WDTPW + WDTHOLD; //Disables the watchdog timer using the WDTHOLD 
+  
+  
   
