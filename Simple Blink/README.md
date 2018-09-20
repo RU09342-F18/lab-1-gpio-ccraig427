@@ -1,7 +1,7 @@
 # Simple Blink
-For starters, you will need to blink one of the on-board LED's at a particular rate. It is up to you to determine what rate you want to blink it at, however it has to be symmetrical (50% Duty Cycle), meaning equal times on and off. You should attempt multiple different speeds before moving on to the next part of the lab.
+This portion of the lab was to demonstrate how to blink an LED on two of the development boards. The LED will blink at a specific rate depending on the delay of the clock cycles for the microcontroller. By completing this exercise, I was able to understand how to control a specific General Purpose Input/Output (GPIO) pin. For this exercise, I used the MSP430G2553 and MSP430F5529 microcontrollers. 
 
-## YOU NEED TO CREATE THE FOLLOWING FOLDERS
+## 
 * MSP430G2553
 * MSP(FILL IN WHAT BOARD YOU ARE USING)
 
