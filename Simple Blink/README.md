@@ -5,7 +5,7 @@ Date Completed 9/17/2018
 This portion of the lab was to demonstrate how to blink an LED on two of the development boards. The LED will blink at a specific rate depending on the delay of the clock cycles for the microcontroller. By completing this exercise, I was able to understand how to control a specific General Purpose Input/Output (GPIO) pin. For this exercise, I used the MSP430G2553 and MSP430F5529 microcontrollers. 
 
 ## Code Analysis
-'''Function'''
+A huge part of this lab was performing logic operations with BIT0. BIT0 is defined as 0x01. 
 
 ## How to not damage your processor
 Remember that your microprocessors are not hooked up to a nuclear power plant and they can only provide a finite amount of current and power to your attached devices. For each of your processors you should see what the maximum supply current is for the digital output pins and note it in your designs. Diodes are an interesting device where the V-I curve becomes almost a short circuit after only a couple volts. If you have a diode biased to operate at say 1 volt above its turn on voltage, you are going to be drawing quite a bit of amperage.
