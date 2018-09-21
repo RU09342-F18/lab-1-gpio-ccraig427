@@ -1,9 +1,11 @@
 #include <msp430.h> 
+/* 
+*File: main.c For Simple blink on MSP430F5529
+*Created On: 9/19/2018
+*Last Edited: 9/19/2018
+*Author: Colin Craig
+*/
 
-
-/**
- * main.c
- */
 int main(void)
 {
   WDTCTL = WDTPW + WDTHOLD; //Disables the watchdog timer within the microcontroller 
