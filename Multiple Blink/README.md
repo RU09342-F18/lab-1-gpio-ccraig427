@@ -6,3 +6,7 @@ In this exercise, there was a slight difference between code of the two microcon
 ### 1.) P4DIR |= BIT7; 
 ### 2.) P4SEL &= BIT7; 
 ### 3.) P4OUT ^= BIT7; 
+(1) allowed the direction of P4.7 to be an output. This is similar to the line of code for P1.0 except that the P4DIR register is being used and the most significant bit is getting changed in that register. (2) allows the function of that pin to be a general input output. Each pin has the ability to perform numerous functions and this register tells what function that pin will be performing. (3) toggles the most significant bit by XOR. This allows the LED to switch on and off based on the value of BIT7. 
+
+In the MSP430G2553, the 2nd LED used was controlled by P1.6. The only difference with this simulatenous blinking of two LEDs is that we needed to allow P1SEL and P1DIR registers to be changed based on both BIT0 and BIT6. This was accomplished through parentheses as seen in the following line of code. 
+### P1SEL &= ~(BIT0 + BIT6) 
