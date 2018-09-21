@@ -10,7 +10,7 @@ int main(void)
 { 
   WDTCTL = WDTPW + WDTHOLD; //Disables the watchdog timer within the microcontroller 
   
-  P1SEL &= ~BIT0; 
+  P1SEL &= ~BIT0; //Negates least significant bit of P1SEL
   P1DIR |= BITO0; 
   
   while(1) //Initiate an infinite while loop 
