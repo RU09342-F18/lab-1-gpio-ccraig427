@@ -1,5 +1,5 @@
 Student: Colin Craig 
-Date Completed 9/17/2018
+Date Completed 9/21/2018
 
 # Simple Blink
 This portion of the lab was to demonstrate how to blink an LED on two of the development boards. The LED will blink at a specific rate depending on the delay of the clock cycles for the microcontroller at a 50% duty cycle. This means that it will be on for the same amount of time that it is off. By completing this exercise, I was able to understand how to control a specific General Purpose Input/Output (GPIO) pin. For this lab, I used the MSP430G2553 and MSP430F5529 microcontrollers. For a simple blink of the LED, there was no difference between the two codes. They both used P1.0 to blink the LED and implemented the same way. 
