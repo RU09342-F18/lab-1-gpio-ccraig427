@@ -1,9 +1,12 @@
 #include <msp430.h> 
 
+/* 
+*File: main.c For Off-Board Blink on MSP430G2553
+*Created On: 9/17/2018
+*Last Edited: 9/21/2018
+*Author: Colin Craig
+*/
 
-/**
- * main.c
- */
 int main(void)
 {
 	WDTCTL = WDTPW | WDTHOLD;	// stop watchdog timer
