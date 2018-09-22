@@ -17,7 +17,7 @@ int main(void)
   {
     if ((P1IN & BIT3) != BIT3) 
     {
-      P1OUT ^= BIT0;
+      P1OUT ^= BIT0; //toggles the LED
 	    __delay_cycles(500000);
 	  }
   }
