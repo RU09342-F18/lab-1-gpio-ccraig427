@@ -12,8 +12,8 @@ int main(void)
 
     while(1)
 	{
-        P1OUT ^= BIT0 | BIT6;
-	    __delay_cycles(500000);
+        P1OUT ^= BIT0 | BIT6; //toggles the output 
+	__delay_cycles(500000); //delays the loop by 500,000 cycles
 	}
 	return 0;
 }
