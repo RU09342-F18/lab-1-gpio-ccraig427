@@ -2,7 +2,7 @@
 /* 
 *File: main.c For Button blink on MSP430G2553
 *Created On: 9/17/2018
-*Last Edited:
+*Last Edited: 9/21/2018
 *Author: Colin Craig
 */
 
